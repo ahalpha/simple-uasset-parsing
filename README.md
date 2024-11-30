@@ -19,12 +19,12 @@ UASSETP(_UASSET, _UEXP, _UBULK)
 - _UEXP - 非必要 - 如果为空则会在资产目录自动查找
 - _UBULK - 非必要 - 如果为空则会在资产目录自动查找
 
-## 或者直接使用示例 .example.py
+## 或者直接使用示例 example.py
 
 这里也需要安装 Wind 的相关的模块及程序才能使用
 
 ``` cmd
-py uex.py
+py example.py
 ```
 
 运行后根据提示拖入 .uasset (或是 .uexp/.ubulk) 资产，会自动收集并存放在 out 文件夹。
